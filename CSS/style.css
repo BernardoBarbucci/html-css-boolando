@@ -8,11 +8,22 @@
 /*larghezza standard*/
 .container {
     width: 75%;
+    margin: 0 auto;
 }
 
 .flex-j-center{
     display: flex;
     justify-content: center;
+}
+
+.flex-j-end{
+    display: flex;
+    justify-content: end;
+}
+
+.flex-j-start{
+    display: flex;
+    justify-content: start;
 }
 
 body {
@@ -63,4 +74,50 @@ header .top-menu .profile {
     color: rgb(255, 255, 255);
 }
 
+.profile{
+    font-size: 20px;
+    padding-right: 10px;
+}
 /*fine header*/
+
+main>section{
+    background-color: blue;
+    height: 500px;
+    width: 100%;
+}
+
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.item-box{
+    background-color: #098524;
+}
+
+.items .item-box{
+    width: calc(100% / 3 - 2rem);
+    margin: 2rem 1rem;
+}
+
+.items .item-box{
+    position: relative;
+    height: 450px;
+}
+
+.items .item-box .heart:hover {
+    color: red;
+}
+
+.items .item-box .heart{
+    background-color: white;
+    position: absolute;
+    height: 3rem;
+    padding: 0.25rem 0;
+    width: 3rem;
+    font-size: 2rem;
+    top: 1rem;
+    right: 0;
+    text-align: center;
+}
