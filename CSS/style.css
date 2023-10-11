@@ -1,0 +1,66 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*larghezza standard*/
+.container {
+    width: 75%;
+}
+
+.flex-j-center{
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;;
+}
+
+header {
+    background-color:rgb(255, 105, 0);
+}
+
+header .top-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+}
+
+header .top-menu div {
+    width: 20%;
+}
+
+header .top-menu div ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header .top-menu div ul li {
+    color: rgb(255, 255, 255);
+    line-height: 2rem;
+    margin-left: 0.75rem;
+}
+
+header .top-menu .Logo {
+    width: 65%;
+    text-align: center;
+}
+
+header .top-menu .profile > * {
+    margin-left: 0.25rem;
+}
+
+header .top-menu .Logo img {
+    height: 2rem;
+}
+
+header .top-menu .profile {
+    width: 20%;
+    line-height: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+/*fine header*/
