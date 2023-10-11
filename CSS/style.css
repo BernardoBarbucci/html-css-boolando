@@ -80,18 +80,10 @@ header .top-menu .profile {
 }
 /*fine header*/
 
-main>section{
-    width: 100%;
-}
-
 .items{
     display: flex;
     flex-wrap: wrap;
     margin-top: 3rem;
-}
-
-.item-box{
-    background-color: #c024ce;
 }
 
 .items .item-box{
@@ -159,6 +151,64 @@ main>section{
 .items .item-box .item-info .price {
     text-decoration: line-through;
 }
+
+
+
+
+
+.items .item-1 {
+    background-image: url("../img/1.webp");
+}
+
+.item-1:hover {
+    background-image: url("../img/1b.webp");
+}
+
+.products-wrapper .item-2 {
+    background-image: url("../img/2.webp");
+}
+
+.item-2:hover {
+    background-image: url("../img/2b.webp");
+}
+
+.products-wrapper .item-3 {
+    background-image: url("../img/3.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+.item-3:hover {
+    background-image: url("../img/3b.webp");
+}
+
+.products-wrapper .item-4 {
+    background-image: url("../img/4.webp");
+}
+
+.item-4:hover {
+    background-image: url("../img/4b.webp");
+}
+
+.products-wrapper .item-5 {
+    background-image: url("../img/5.webp");
+}
+
+.item-5:hover {
+    background-image: url("../img/5b.webp");
+}
+
+.products-wrapper .item-6 {
+    background-image: url("../img/6.webp");
+}
+
+.item-6:hover {
+    background-image: url("../img/6b.webp");
+}
+
+
+
+
 
 
 
