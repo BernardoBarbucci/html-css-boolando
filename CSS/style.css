@@ -74,6 +74,10 @@ header .top-menu .profile {
     color: rgb(255, 255, 255);
 }
 
+main{
+    width: 85%;
+}
+
 .profile{
     font-size: 20px;
     padding-right: 10px;
@@ -89,12 +93,20 @@ header .top-menu .profile {
 .items .item-box{
     width: calc(100% / 3 - 2rem);
     margin: 2rem 1rem;
-}
-
-.items .item-box{
     position: relative;
     height: 450px;
 }
+
+/*aggiunta*/
+.items .item-box .item-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    text-align: center;
+}
+/*fine delle cose aggiunte*/
 
 .items .item-box .heart:hover {
     color: red;
@@ -151,10 +163,6 @@ header .top-menu .profile {
 .items .item-box .item-info .price {
     text-decoration: line-through;
 }
-
-
-
-
 
 .items .item-1 {
     background-image: url("../img/1.webp");
