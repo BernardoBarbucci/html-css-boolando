@@ -81,8 +81,6 @@ header .top-menu .profile {
 /*fine header*/
 
 main>section{
-    background-color: blue;
-    height: 500px;
     width: 100%;
 }
 
@@ -93,7 +91,7 @@ main>section{
 }
 
 .item-box{
-    background-color: #098524;
+    background-color: #c024ce;
 }
 
 .items .item-box{
@@ -121,3 +119,46 @@ main>section{
     right: 0;
     text-align: center;
 }
+
+.items .item-box .sale {
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    bottom: 4rem;
+    left: 0;
+    height: 1.5rem;
+    width: 3rem;
+    color: white;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 0.75rem;
+}
+
+.items .item-box .sost {
+    background-color: rgb(0, 128, 0);
+    position: absolute;
+    bottom: 4rem;
+    left: 3.5rem;
+    height: 1.5rem;
+    width: 6.5rem;
+    color: white;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 0.90rem;
+    font-weight: 700;
+}
+
+.items .item-box .item-info .item-name {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.items .item-box .item-info .sale-price {
+    color: red;
+}
+
+.items .item-box .item-info .price {
+    text-decoration: line-through;
+}
+
+
+
