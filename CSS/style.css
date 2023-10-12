@@ -87,13 +87,14 @@ main{
     display: flex;
     flex-wrap: wrap;
     margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .items .item-box{
     width: calc(100% / 3 - 2rem);
     margin: 2rem 1rem;
     position: relative;
-    height: 450px;
+    height: 550px;
 }
 
 /*aggiunta*/
@@ -165,6 +166,8 @@ main{
 
 .items .item-1 {
     background-image: url("../img/1.webp");
+    background-position: center;
+    background-size: cover;
 }
 
 .item-1:hover {
@@ -173,6 +176,8 @@ main{
 
 .items .item-2 {
     background-image: url("../img/2.webp");
+    background-position: center;
+    background-size: cover;
 }
 
 .item-2:hover {
@@ -191,6 +196,8 @@ main{
 
 .items .item-4 {
     background-image: url("../img/4.webp");
+    background-position: center;
+    background-size: cover;
 }
 
 .item-4:hover {
@@ -199,6 +206,8 @@ main{
 
 .items .item-5 {
     background-image: url("../img/5.webp");
+    background-position: center;
+    background-size: cover;
 }
 
 .item-5:hover {
@@ -207,6 +216,8 @@ main{
 
 .items .item-6 {
     background-image: url("../img/6.webp");
+    background-position: center;
+    background-size: cover;
 }
 
 .item-6:hover {
