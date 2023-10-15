@@ -104,7 +104,7 @@ main{
     left: 0;
     right: 0;
     padding: 1rem;
-    text-align: center;
+    transform: translateY(80px); 
 }
 /*fine delle cose aggiunte*/
 
@@ -153,15 +153,17 @@ main{
 
 .items .item-box .item-info .item-name {
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .items .item-box .item-info .sale-price {
     color: red;
+    font-size: 0.7rem;
 }
 
 .items .item-box .item-info .price {
     text-decoration: line-through;
+    font-size: 0.7rem;
 }
 
 .items .item-1 {
